@@ -22,7 +22,6 @@ for elem2 in sys.argv[3]:
 #dist=int(sys.argv[4])
 
 dicts_chain1={}
-dicts_chain2={}
 for p in range(0,len(pdb)):
 	if pdb[p][21:22] in chain1: #21:22 is chain ID position in pdb format
 		for m in range(p+1,len(pdb)):
